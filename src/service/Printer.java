@@ -5,10 +5,6 @@ import model.Product;
 
 public class Printer {
 
-	public void print(String text) {
-		System.out.print(text);
-	}
-
 	public void print(List<Product> listOfProducts) {
 
 		System.out.println("---------RECEIPT---------");
